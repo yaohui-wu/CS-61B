@@ -3,7 +3,7 @@
  */
 public class Collatz {
 
-    /** Return the next number in the Collatz sequence. */
+    /** Returns the next number in the Collatz sequence. */
     public static int nextNumber(int n) {
         if (n % 2 == 0) {
             // If the number is even, divide it by two.
